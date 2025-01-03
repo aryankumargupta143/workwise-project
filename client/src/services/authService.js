@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://seat-book-app-ruddy.vercel.app/';
+const API_URL = 'https://seat-book-app-ruddy.vercel.app';
 
 // Register user
 export const registerUser = async (userData) => {
