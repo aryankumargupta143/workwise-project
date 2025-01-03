@@ -16,7 +16,7 @@ const app = express();
 app.use(cors()); // Allow CORS
 app.use(
   cors({
-    origin: ["https://deploy-mern-1whq.vercel.app"],
+    origin: ["https://seat-book-client.vercel.app/login"],
     methods: ["POST", "GET"],
     credentials: true,
   })
