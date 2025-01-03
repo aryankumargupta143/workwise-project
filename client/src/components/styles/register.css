@@ -1,0 +1,85 @@
+.auth-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  background: url('https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg') no-repeat center center/cover;
+  opacity: 0.9;
+}
+
+.auth-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.9); /* Slightly opaque white for better contrast */
+  border-radius: 1.5rem;
+  padding: 2.5rem 4rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  width: 90%;
+  max-width: 450px;
+}
+
+.auth-card h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #4e0eff;
+  font-size: 2rem;
+}
+
+.input-field {
+  background-color: #f0f0f0; /* Neutral light color */
+  padding: 0.8rem 1rem;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #4e0eff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(78, 14, 255, 0.5);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #4e0eff, #997af0);
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 10px auto;
+  width: 10rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #997af0, #4e0eff);
+  transform: translateY(-2px);
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #555;
+}
+
+p a {
+  color: #4e0eff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+p a:hover {
+  color: #997af0;
+}
